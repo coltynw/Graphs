@@ -1,3 +1,9 @@
+
+
+# okay my first few thoughts on this are that its going to have to be a breath-frist traversal or search that has a limited number of edges to make sure every friend recommendation doesnt traverse the entire network. I would like to reuse code that ive written before but I dont this it would really apply to this class so i should probably just rewrite it all. I dont have any interest in a complexed way of limiting the number of paths, I want to just write a conditional statement that stops the traversal if the number of parent nodes in the path dictionary is 3. Since its breath-first ill be 3 of every node.
+
+
+
 class User:
     def __init__(self, name):
         self.name = name
